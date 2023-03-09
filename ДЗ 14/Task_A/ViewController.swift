@@ -10,14 +10,11 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var name: UITextField!
-    
     @IBOutlet weak var surname: UITextField!
-    
     @IBAction func saveButton(_ sender: Any) {
         Persistance.shared.userName = name.text
         Persistance.shared.userSurname = surname.text
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

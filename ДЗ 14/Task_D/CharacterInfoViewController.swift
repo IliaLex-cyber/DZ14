@@ -14,9 +14,7 @@ class CharacterInfoViewController: UIViewController {
     @IBOutlet weak var charGenderLabel: UILabel!
     @IBOutlet weak var charLastLocationLabel: UILabel!
     @IBOutlet weak var charImage: UIImageView!
-    
     @IBOutlet weak var firstSeenLabel: UILabel!
-    
     @IBOutlet weak var episodesLabel: UILabel!
     
     
